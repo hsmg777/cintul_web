@@ -1,0 +1,37 @@
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: cintul-backend
+    env_file:
+      - ./backend/.env
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./backend:/app
+    restart: always
+    networks:
+      - cintul-network
+
+  cintul_dev:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: cintul-frontend
+    working_dir: /app
+    volumes:
+      - ./frontend:/app:cached
+      - /app/node_modules
+    ports:
+      - "5173:5173"
+    environment:
+      - NODE_ENV=development
+    command: [ "npm", "run", "dev", "--", "--host" ]
+    depends_on:
+      - backend
+    networks:
+      - cintul-network
+networks:
+  cintul-network:
+    driver: bridge
