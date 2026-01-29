@@ -22,7 +22,7 @@ export function ProductsSection() {
             model: "OSCL",
             name: "Línea de Vida / Bandola / Faja",
             description:
-                "Sistema de protección anticaída para trabajos en altura con certificación INEN",
+                "Sistema de protección anticaída para trabajos en altura.",
             image:
                 "/images/tecnicovida.png",
             features: [
@@ -30,7 +30,7 @@ export function ProductsSection() {
                 "Cinta de 4 capas, 4.5 cm de ancho y 2 metros de largo",
                 "Ganchos templados con doble seguro normado",
                 "Alta resistencia a abrasión (caucho y nylon)",
-                "Certificación y pruebas de laboratorio INEN",
+                "Pruebas de laboratorio INEN",
                 "Protección permanente durante desplazamiento vertical",
             ],
             specs: [
@@ -48,11 +48,6 @@ export function ProductsSection() {
                     label: "Capas de Cinta",
                     value: "4 capas",
                     icon: <Package className="w-4 h-4 text-yellow-400" />,
-                },
-                {
-                    label: "Certificación",
-                    value: "INEN",
-                    icon: <Award className="w-4 h-4 text-yellow-400" />,
                 },
                 {
                     label: "Material Cinta",
@@ -149,7 +144,6 @@ export function ProductsSection() {
                 "Materiales: cuero baketa, nylon y caucho de alta resistencia",
                 "Sistema porta-herramientas integrado",
                 "Hebillas y ganchos tipo D en acero inoxidable AISI 304",
-                "Certificación INEN – LE-2025-1498",
             ],
             specs: [
                 {
@@ -176,12 +170,7 @@ export function ProductsSection() {
                     label: "Herrajes",
                     value: "Acero Inoxidable AISI 304",
                     icon: <Wrench className="w-4 h-4 text-yellow-400" />,
-                },
-                {
-                    label: "Certificación",
-                    value: "INEN LE-2025-1498",
-                    icon: <Award className="w-4 h-4 text-yellow-400" />,
-                },
+                }
             ],
             technicalDetails: [
                 "Diseño ergonómico que proporciona soporte lumbar óptimo durante largas jornadas",
@@ -189,7 +178,6 @@ export function ProductsSection() {
                 "Refuerzos en nylon y caucho en zonas de alto desgaste",
                 "Sistema integrado porta-herramientas para facilitar el trabajo en altura",
                 "Hebillas y ganchos tipo D fabricados en acero inoxidable AISI 304 anticorrosivo",
-                "Certificación oficial INEN LE-2025-1498 que garantiza estándares de seguridad",
                 "Resistencia probada de 882.76 kg para máxima confiabilidad",
                 "Disponible en amplia gama de tallas (34 a 48) para ajuste personalizado",
                 "Fabricado en Ecuador bajo normas internacionales de seguridad industrial",
@@ -213,12 +201,7 @@ export function ProductsSection() {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     {/* Header */}
                     <div className="text-center mb-16 space-y-4">
-                        <div className="inline-flex items-center gap-2 bg-yellow-400/10 border border-yellow-400/30 px-4 py-2 rounded-lg mb-4">
-                            <Shield className="w-5 h-5 text-yellow-400" />
-                            <span className="text-yellow-400 tracking-wide font-mono text-sm">
-                                PRODUCTOS CERTIFICADOS
-                            </span>
-                        </div>
+
 
                         <h2 className="text-4xl md:text-5xl font-bold text-white">
                             Equipos de Seguridad{" "}

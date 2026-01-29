@@ -7,10 +7,10 @@ import {
 } from "lucide-react";
 
 const heroImages = [
-    "/images/hero.png",
-    "/images/lineavida.png",
-    "/images/trepadora.png",
-    "/images/cinturon.png"
+    "/images/trep.jpeg",
+    "/images/pers.jpeg",
+    "/images/herr.jpeg",
+    "/images/cint.jpeg"
 ];
 
 export function Hero() {
@@ -79,12 +79,6 @@ export function Hero() {
                             <Factory className="w-8 h-8 text-yellow-400" />
                         </div>
                         <p className="text-sm font-medium text-gray-300">Fabricación Nacional</p>
-                    </div>
-                    <div className="flex flex-col items-center space-y-2 group">
-                        <div className="p-3 bg-white/10 rounded-full backdrop-blur-sm group-hover:bg-yellow-400/20 transition-colors">
-                            <Award className="w-8 h-8 text-yellow-400" />
-                        </div>
-                        <p className="text-sm font-medium text-gray-300">Certificación INEN</p>
                     </div>
                     <div className="flex flex-col items-center space-y-2 group">
                         <div className="p-3 bg-white/10 rounded-full backdrop-blur-sm group-hover:bg-yellow-400/20 transition-colors">

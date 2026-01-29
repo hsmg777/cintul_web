@@ -38,7 +38,7 @@ def send_email(data):
         msg = EmailMessage()
         msg["Subject"] = f"👷 Nueva solicitud de información – {nombre}"
         msg["From"] = MAIL_SENDER
-        msg["To"] = "haylandsebastian5@gmail.com"
+        msg["To"] = "osc_german243@hotmail.com"
         
         # ----------- PLAIN TEXT -----------
         msg.set_content(

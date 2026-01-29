@@ -10,6 +10,13 @@ interface ProductModalProps {
 export function ProductModal({ product, isOpen, onClose }: ProductModalProps) {
     if (!isOpen || !product) return null;
 
+    const pdfMap: Record<string, string> = {
+        '1': '/docs/lineavida.pdf',
+        '3': '/docs/cinturon.pdf'
+    };
+
+    const pdfUrl = pdfMap[product.id];
+
     return (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4 animate-in fade-in duration-200">
             {/* Backdrop */}
@@ -113,9 +120,9 @@ export function ProductModal({ product, isOpen, onClose }: ProductModalProps) {
                         <div className="flex items-start gap-4">
                             <Award className="w-8 h-8 text-yellow-400 flex-shrink-0" />
                             <div className="space-y-2">
-                                <h4 className="text-lg font-bold text-white">Certificación y Calidad</h4>
+                                <h4 className="text-lg font-bold text-white">Calidad</h4>
                                 <p className="text-slate-300 text-sm">
-                                    Producto certificado bajo normas INEN con pruebas de laboratorio.
+                                    Producto bajo normas INEN con pruebas de laboratorio.
                                     Fabricado en Ecuador con más de 30 años de experiencia en seguridad industrial.
                                 </p>
                             </div>
@@ -125,6 +132,19 @@ export function ProductModal({ product, isOpen, onClose }: ProductModalProps) {
 
                 {/* Footer CTA - Fixed */}
                 <div className="flex-shrink-0 bg-slate-900 border-t border-slate-700 p-6">
+                    <div className="flex flex-col sm:flex-row gap-3">
+                        {pdfUrl && (
+                            <a
+                                href={pdfUrl}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex-1 bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg font-bold transition-all duration-300 shadow-lg shadow-blue-500/20 hover:shadow-blue-500/40 text-center"
+                            >
+                                Ver pruebas laboratorio INEN
+                            </a>
+                        )}
+                    </div>
+                    <br />
                     <div className="flex flex-col sm:flex-row gap-3">
                         <a
                             href={`https://wa.me/593994005006?text=${encodeURIComponent(`Hola quiero cotizar el producto ${product.name}`)}`}

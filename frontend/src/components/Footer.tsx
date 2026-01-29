@@ -14,7 +14,7 @@ export function Footer() {
                             <span className="text-2xl font-bold text-white">CINTUL</span>
                         </div>
                         <p className="text-slate-400 text-sm leading-relaxed">
-                            30 años fabricando equipos de seguridad industrial certificados para trabajos en altura en Ecuador.
+                            30 años fabricando equipos de seguridad industrial para trabajos en altura en Ecuador.
                         </p>
                         <div className="flex gap-3">
                             <a href="#" className="w-10 h-10 bg-slate-800 hover:bg-yellow-400 rounded-lg flex items-center justify-center transition-colors group">

@@ -90,7 +90,7 @@ export function ProductCard({ product, onViewDetails }: ProductCardProps) {
                 {/* Certification Badge */}
                 <div className="flex items-center gap-2 pt-4 border-t border-slate-700">
                     <Award className="w-5 h-5 text-yellow-400" />
-                    <p className="text-xs text-slate-400">Certificación INEN | Fabricado en Ecuador</p>
+                    <p className="text-xs text-slate-400">Pruebas laboratorio INEN | Fabricado en Ecuador</p>
                 </div>
             </div>
         </div>

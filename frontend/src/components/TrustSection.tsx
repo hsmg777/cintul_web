@@ -19,8 +19,8 @@ export function TrustSection() {
         },
         {
             icon: <Award className="w-8 h-8 text-yellow-400" />,
-            title: "Certificación INEN",
-            description: "Todos nuestros productos cumplen con normativas técnicas y pruebas de laboratorio certificadas"
+            title: "Pruebas laboratorio INEN",
+            description: "Todos nuestros productos cumplen con normativas técnicas y pruebas de laboratorio"
         },
         {
             icon: <Users className="w-8 h-8 text-yellow-400" />,
@@ -56,7 +56,7 @@ export function TrustSection() {
                     </h2>
 
                     <p className="text-xl text-slate-400 max-w-3xl mx-auto leading-relaxed">
-                        CINTUL es sinónimo de <span className="text-white font-semibold">seguridad industrial certificada</span>.
+                        CINTUL es sinónimo de <span className="text-white font-semibold">seguridad industrial certificada por clientes en todo el país</span>.
                         Tres décadas de compromiso con la calidad, innovación y servicio en equipos de protección para trabajos en altura.
                     </p>
                 </div>
@@ -73,7 +73,7 @@ export function TrustSection() {
                     </div>
                     <div className="bg-slate-800 border border-slate-700 rounded-xl p-6 text-center space-y-2">
                         <div className="text-4xl font-bold text-yellow-400">INEN</div>
-                        <div className="text-sm text-slate-400">Certificación Oficial</div>
+                        <div className="text-sm text-slate-400">Pruebas laboratorio Oficiales</div>
                     </div>
                     <div className="bg-slate-800 border border-slate-700 rounded-xl p-6 text-center space-y-2">
                         <div className="text-4xl font-bold text-yellow-400">24/7</div>

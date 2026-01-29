@@ -216,7 +216,7 @@ export function CTASection() {
                             </div>
 
                             <h2 className="text-4xl md:text-5xl font-bold text-white leading-tight">
-                                ¿Necesitas Equipos de Seguridad Industrial <span className="text-yellow-400">Certificados</span>?
+                                ¿Necesitas Equipos de Seguridad Industrial?
                             </h2>
 
                             <p className="text-xl text-slate-400 leading-relaxed">
