@@ -62,8 +62,8 @@ export function Hero() {
                 {/* Headline */}
                 <div className="space-y-6 mb-12">
                     <h1 className="text-5xl md:text-7xl font-extrabold text-white leading-tight tracking-tight drop-shadow-lg">
-                        Seguridad Industrial <br className="hidden md:block" />
-                        <span className="text-yellow-400">Certificada</span> para Trabajos en Altura
+                        Equipos de Seguridad Industrial <br className="hidden md:block" />
+                        para Trabajos en Altura
                     </h1>
 
                     <p className="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto leading-relaxed drop-shadow-md">
